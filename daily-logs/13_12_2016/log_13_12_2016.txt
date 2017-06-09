@@ -1,0 +1,13 @@
+Proposta: Melhorar o método que pega somente bases de dados geográficas
+
+O que foi feito: Foi implementado o método getGeoDatabases() retornando só bases de dados geográficas.
+
+Como foi feito: Foram listados as bases de dados e para cada base uma query foi executada(ver o arquivo query.sql) na tabela
+geometry_columns. Caso essa ela não exista, a base não é selecionada. 
+
+O que falta: Nada. Tarefa concluída.
+
+Problemas encontrados: A classe de banco de dados foi escrita para se conectar a uma base de dados. Como é preciso uma consulta para cada
+base existente, então a classe deverá ser alterada(Ela tá usando um singleton o que não permite passar a base como parâmetro). 
+Como a proposta original era fazer apenas uma conexão, vou tentar fazer métodos adicionais para não quebrar essa proposta. 
+Mesmo problema do log anterior, é necessário refatorar o código.

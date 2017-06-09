@@ -1,0 +1,15 @@
+Proposta: Criar a tela para criação de views, mostrando a view na tela(tabela inferior da tela). Cada checkbox
+é uma coluna da tabela escolhida. Os selecionando, é gerada uma view com base nos checkboxes escolhidos.
+
+O que foi feito: A tela tá praticamente pronta e já gera as views.
+
+Como foi feito: Olhar o arquivo print.png desse log. A primeira opção é a base de dados, a segunda as tabelas. Os checkboxes são para
+gerar os campos da view. Parte da view é mostrada na parte inferior da tabela.
+
+O que falta: Arrumar uma boa quantidade de detalhes, tanto na tela quanto no código. O código precisa ser melhor organizado e a tela
+melhorada, ainda faltam alguns recursos.
+
+Problemas encontrados: A classe de banco de dados foi escrita para se conectar a uma base de dados. Como é preciso uma consulta para cada
+base existente, então a classe deverá ser alterada(Ela tá usando um singleton o que não permite passar a base como parâmetro). Como a proposta original era fazer apenas uma conexão, vou tentar fazer métodos adicionais para não quebrar essa proposta.
+
+adendo: Tarefa parada. Talvez seja retomada caso haja alguma utilidade nessa tela.

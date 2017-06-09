@@ -1,0 +1,6 @@
+Proposta: alterar a tabela taxicab2 de forma que os dados aparecessem em ordem crescente por tempo, com um pid
+para cada tempo.
+
+O que foi feito: taxicab3 com o pid e cópia dos dados da tabela taxicab2
+
+Como foi feito: olhar os arquivos de sql desse log

@@ -1,0 +1,1 @@
+﻿create table taxicab3 as (select * from taxicab2 order by time)

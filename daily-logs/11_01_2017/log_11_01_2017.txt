@@ -1,0 +1,9 @@
+Objetivo: estudar e usar group by para extrair algumas features
+
+O que foi feito: implementação da interface(Java) para criar sql statements com group by. Codigo no arquivo print.png desse log.
+	Também foi criada o sql para extrair a duração de uma trajetória(ver feature_durantion.sql desse log).
+
+O que falta: outras features como velocidade e distancia, mas faltam dados na tabela.
+
+entrada: 14:10
+saida: 20:00

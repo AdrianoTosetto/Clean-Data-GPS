@@ -1,0 +1,1 @@
+﻿ALTER TABLE taxicab3 ADD COLUMN pid serial

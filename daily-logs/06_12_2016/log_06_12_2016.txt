@@ -1,0 +1,6 @@
+Proposta: Criar a tela para criação de views, mostrando a view na tela(tabela inferior da tela). Cada checkbox
+é uma coluna da tabela escolhida. Os selecionando, é gerada uma view com base nos checkboxes escolhidos.
+
+O que foi feito: implementação de um método para gerar o sql das views e a montagem inicial da respectiva tela
+
+como foi feito: Olhar o arquivo print.png desse log.
