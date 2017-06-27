@@ -1,1 +1,0 @@
-﻿select tid, bit_or(occupation) from taxicab2 group by tid order by bit_or

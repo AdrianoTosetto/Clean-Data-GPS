@@ -1,7 +1,0 @@
-O que foi feito: o método para quebrar as trajetorias foi terminado, eliminando os problemas de memória.
-
-horário de entrada: 10:00
-horário de saída: 11:30
-
-horário de entrada 14:00
-horário de saída: 20:00
